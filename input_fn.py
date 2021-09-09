@@ -68,7 +68,6 @@ def build_model_columns():
         tf.feature_column.embedding_column(device_type, dimension=15, combiner='sum'),
         tf.feature_column.embedding_column(device_model, dimension=15, combiner='sum'),
         tf.feature_column.embedding_column(manufacturer, dimension=15, combiner='sum'),
-
     ]
     # base_columns = [user_id, ad_id, creative_id,  product_id, brush_num, terminal,terminal_brand]
     '''
